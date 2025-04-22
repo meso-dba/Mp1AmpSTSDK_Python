@@ -236,7 +236,7 @@ void *sdb_thread(void *arg)
                     }
 //                    printf("[%ld.%06ld] vitural_tty_thread data EVENT buffIdx=%d mNbCompData=%u mNbUncompData=%u mNbWrittenInFileData=%u\n", 
 //                          (long int)tval_result.tv_sec, (long int)tval_result.tv_usec, buffIdx, mNbCompData, mNbUncompData, mNbWrittenInFileData);    
-#define DBG                    
+// #define DBG                    
 #ifdef DBG                   
                     pCompData[0] = 0x55;    // just for debug
                     pCompData[1] = 0xAA;  
